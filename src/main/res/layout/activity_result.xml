@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    android:gravity="center"
+
+
+    tools:context=".VotingActivity">
+
+    <TextView
+        android:id="@+id/Hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:text=""
+        android:textColor="#1E38CC"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="PLEASE VOTE WISELY!"
+
+        android:textColor="@color/black"
+        android:gravity="center"
+
+        android:textStyle="bold"
+
+        android:textSize="20dp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="YOU VOTED FOR:"
+
+        android:textColor="@color/black"
+
+        android:gravity="center"
+
+        android:textStyle="bold"
+
+        android:textSize="20dp"/>
+
+    <TextView
+
+        android:id="@+id/Pres"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+
+        android:gravity="center"
+
+        android:text="Pres:"
+
+        android:textColor="@color/black"
+
+        android:textSize="20dp"
+
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/Vpres"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+
+        android:text="Vice:"
+
+        android:textColor="@color/black"
+
+        android:gravity="center"
+
+        android:textStyle="bold"
+
+        android:textSize="20dp"/>
+
+
+</LinearLayout>
